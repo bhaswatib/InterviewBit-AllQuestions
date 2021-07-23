@@ -1,3 +1,4 @@
+/*
 Given a non-negative number represented as an array of digits,
 
 add 1 to the number ( increment the number represented by the digits ).
@@ -19,6 +20,7 @@ A : For the purpose of this question, YES
 Q : Can the output have 0’s before the most significant digit? Or in other words, is 0 1 2 4 a valid output?
 A : For the purpose of this question, NO. Even if the input has zeroes before the most significant digit.
 
+*/
 
 Solution:
 
