@@ -1,3 +1,4 @@
+/*
 Problem Description
 
 Given an integer array A of size N.
@@ -59,6 +60,7 @@ Explanation 1:
 Explanation 2:
 
  Pick element 2 from end as this is the maximum we can get
+ */
  
  Solution:
  
