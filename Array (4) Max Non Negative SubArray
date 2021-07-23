@@ -65,4 +65,28 @@ Explanation 2:
  
  Solution:
  
- 
+ vector<int> Solution::maxset(vector<int> &A) 
+ {   vector<int> res;
+     int n=A.size();
+     int sum=0,maxsum=0,left=0,right=0,aleft=-1,aright=-1;
+     for(int i=0;i<n;i++)
+     {  if(A[i]>=0)
+        {  sum+=A[i];
+           if(sum>maxsum || (sum==maxsum && aright-aleft<right-left))
+           {  maxsum=sum;
+              aright=right;
+              aleft=left;
+           }
+        }
+        else
+        {  left=i+1;
+           sum=0;
+        }
+        right++;
+     }
+     if(aleft==-1) return res;
+     for(int i=aleft;i<=aright;i++)
+     {  res.push_back(A[i]);
+     }
+     return res;
+ }
