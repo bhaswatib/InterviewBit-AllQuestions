@@ -1,3 +1,4 @@
+/*
 Max Non Negative SubArray
 
 Asked in:  
@@ -62,6 +63,7 @@ Explanation 2:
 
  The three sub-arrays are [10], [2, 3], [100].
  The answer is [100] as its sum is larger than the other two.
+ */
  
  Solution:
  
