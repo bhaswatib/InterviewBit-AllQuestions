@@ -1,3 +1,4 @@
+/*
 Rotate Matrix
 
 Asked in:  
@@ -26,6 +27,7 @@ Then the rotated array becomes:
     [3, 1],
     [4, 2]
 ]
+*/
 
 Solution:
 Rotate 90 degree to the right.
